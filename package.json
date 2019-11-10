@@ -1,0 +1,33 @@
+{
+    "name": "routine-app",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "@fortawesome/fontawesome-svg-core": "^1.2.22",
+        "@fortawesome/free-regular-svg-icons": "^5.10.2",
+        "@fortawesome/free-solid-svg-icons": "^5.10.2",
+        "@fortawesome/react-fontawesome": "^0.1.4",
+        "enzyme": "^3.10.0",
+        "enzyme-adapter-react-16": "^1.14.0",
+        "prop-types": "^15.7.2",
+        "react": "^16.8.6",
+        "react-dom": "^16.8.6",
+        "react-grid-system": "^6.0.3",
+        "react-input-mask": "^3.0.0-alpha.0",
+        "react-intl-tel-input": "^7.1.0",
+        "react-phone-input-2": "^2.10.0",
+        "react-rainbow-components": "^1.4.0",
+        "react-redux": "^7.1.1",
+        "react-router-dom": "^5.0.1",
+        "react-scripts": "1.1.5",
+        "react-test-renderer": "^16.8.6",
+        "redux": "^4.0.4",
+        "redux-form": "^8.2.6"
+    },
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test --env=jsdom",
+        "eject": "react-scripts eject"
+    }
+}
