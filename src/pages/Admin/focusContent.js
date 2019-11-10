@@ -12,9 +12,6 @@ const iconContainerStyles = {
 
 
 export default class FocustContent extends React.Component {
-    constructor(props) {
-        super(props);
-    }
 
     render() {
 
@@ -30,7 +27,7 @@ export default class FocustContent extends React.Component {
                                 <FontAwesomeIcon icon={faTasks} size="lg" className="rainbow-color_white" />
                             </span>
                         }
-                        title="Your focus for Today"
+                        title={`Your focus for ${this.props.selected_day}`}
                         footer={
                             <div className="rainbow-align-content_space-between">
                                 <div className="rainbow-flex">

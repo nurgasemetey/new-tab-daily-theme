@@ -4,23 +4,16 @@ import React, { Component } from 'react';
 import { Sidebar, SidebarItem } from 'react-rainbow-components';
 
 export default class SideNavigation extends Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-            selectedItem: 'Monday',
-        };
-        this.handleOnSelect = this.handleOnSelect.bind(this);
-    }
 
-    handleOnSelect(e, selectedItem) {
-        return this.setState({ selectedItem });
+    updateSelectedDay = (e, selectedItem) => {
+        console.log(selectedItem);
+        this.props.updateSelectedDay(selectedItem);
     }
 
     render() {
-        const { selectedItem } = this.state;
         return (
             <aside className="rainbow-admin_vertical-navigation rainbow-p-vertical_small">
-            <Sidebar selectedItem={selectedItem} onSelect={this.handleOnSelect} id="sidebar-1">
+            <Sidebar selectedItem={this.props.selected_day} onSelect={this.updateSelectedDay} id="sidebar-1">
                 <SidebarItem icon={<img src="https://img.icons8.com/wired/64/000000/monday.png" />} name="Monday" label="Monday" />
                 <SidebarItem icon={<img src="https://img.icons8.com/wired/64/000000/tuesday.png"/>} name="Tuesday"label="Tuesday"/>
                 <SidebarItem icon={<img src="https://img.icons8.com/wired/64/000000/wednesday.png"/>} name="Wednesday" label="Wednesday" />
