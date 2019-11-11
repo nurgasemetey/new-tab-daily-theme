@@ -2,6 +2,7 @@
     "name": "new-tab-daily-theme",
     "version": "0.1.0",
     "private": true,
+    "homepage": "https://paraboly.github.io/new-tab-daily-theme",
     "dependencies": {
         "@fortawesome/fontawesome-svg-core": "^1.2.22",
         "@fortawesome/free-regular-svg-icons": "^5.10.2",
@@ -9,6 +10,7 @@
         "@fortawesome/react-fontawesome": "^0.1.4",
         "enzyme": "^3.10.0",
         "enzyme-adapter-react-16": "^1.14.0",
+        "gh-pages": "^2.1.1",
         "prop-types": "^15.7.2",
         "react": "^16.8.6",
         "react-dom": "^16.8.6",
@@ -28,6 +30,8 @@
         "start": "react-scripts start",
         "build": "react-scripts build",
         "test": "react-scripts test --env=jsdom",
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d build",
         "eject": "react-scripts eject"
     }
 }
