@@ -2,11 +2,6 @@
 
 ## How to use
 
-Download the example [or clone the repo](https://github.com/nexxtway/react-rainbow-components):
-
-```bash
-cd examples/create-react-app
-```
 
 Install it and run:
 
