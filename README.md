@@ -1,5 +1,3 @@
-# Create React App example
-
 ## How to use
 
 
