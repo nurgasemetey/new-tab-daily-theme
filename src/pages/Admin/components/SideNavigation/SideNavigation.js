@@ -6,37 +6,37 @@ const dailies = [
   {
     name: "Monday",
     label: "Monday",
-    img: "https://img.icons8.com/wired/64/000000/monday.png"
+    img: "./assets/images/monday.png"
   },
   {
     name: "Tuesday",
     label: "Tuesday",
-    img: "https://img.icons8.com/wired/64/000000/tuesday.png"
+    img: "./assets/images/tuesday.png"
   },
   {
     name: "Wednesday",
     label: "Wednesday",
-    img: "https://img.icons8.com/wired/64/000000/wednesday.png"
+    img: "./assets/images/wednesday.png"
   },
   {
     name: "Thursday",
     label: "Thursday",
-    img: "https://img.icons8.com/wired/64/000000/thursday.png"
+    img: "./assets/images/thursday.png"
   },
   {
     name: "Friday",
     label: "Friday",
-    img: "https://img.icons8.com/wired/64/000000/friday.png"
+    img: "./assets/images/friday.png"
   },
   {
     name: "Saturday",
     label: "Saturday",
-    img: "https://img.icons8.com/wired/64/000000/saturday.png"
+    img: "./assets/images/saturday.png"
   },
   {
     name: "Sunday",
     label: "Sunday",
-    img: "https://img.icons8.com/wired/64/000000/sunday.png"
+    img: "./assets/images/sunday.png"
   }
 ];
 
