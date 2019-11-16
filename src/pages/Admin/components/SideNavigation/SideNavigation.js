@@ -6,37 +6,37 @@ const dailies = [
   {
     name: "Monday",
     label: "Monday",
-    img: "./assets/images/monday.png"
+    img: "./assets/images/icons8-monday-50.png"
   },
   {
     name: "Tuesday",
     label: "Tuesday",
-    img: "./assets/images/tuesday.png"
+    img: "./assets/images/icons8-tuesday-50.png"
   },
   {
     name: "Wednesday",
     label: "Wednesday",
-    img: "./assets/images/wednesday.png"
+    img: "./assets/images/icons8-wednesday-50.png"
   },
   {
     name: "Thursday",
     label: "Thursday",
-    img: "./assets/images/thursday.png"
+    img: "./assets/images/icons8-thursday-50.png"
   },
   {
     name: "Friday",
     label: "Friday",
-    img: "./assets/images/friday.png"
+    img: "./assets/images/icons8-friday-50.png"
   },
   {
     name: "Saturday",
     label: "Saturday",
-    img: "./assets/images/saturday.png"
+    img: "./assets/images/icons8-saturday-50.png"
   },
   {
     name: "Sunday",
     label: "Sunday",
-    img: "./assets/images/sunday.png"
+    img: "./assets/images/icons8-sunday-50.png"
   }
 ];
 
