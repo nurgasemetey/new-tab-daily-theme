@@ -30,11 +30,7 @@
 .rainbow-admin_vertical-navigation {
     width: 150px;
     height: calc(100vh - 75px);
-    /* border-right: 1px solid #e3e5ed; */
-    /* background-color: white; */
     position: fixed;
-    /* top: 75px; */
-    /* overflow: auto; */
 }
 
 .rainbow-admin_card-body-badge {
@@ -52,27 +48,7 @@
 
 .accordion {
     width: 300px;
-    /* height: calc(100vh - 75px); */
-    /* border-right: 1px solid #e3e5ed; */
-    /* background-color: white; */
-    /* position: fixed; */
-    /* top: 75px; */
-    /* overflow: auto; */
 }
-
-
-/* 
-ul {
-    list-style: none;
-    padding: 0;
-    width: 70%;
-}
-
-li {
-    background: '#F4F4F4';
-    padding: '10px';
-    border-bottom: '1px #ccc dotted';
-} */
 
 h1,
 .h1 {
