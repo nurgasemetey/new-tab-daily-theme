@@ -1,84 +1,61 @@
 .rainbow-admin_view-port {
-  height: 100vh;
-  overflow: auto;
+    height: 100vh;
+    overflow: auto;
 }
 
 .rainbow-admin_main-inner {
-  margin: 75px 0 0 0px;
-  padding: 3rem;
+    margin: 75px 0 0 0px;
+    padding: 3rem;
 }
 
 .rainbow-admin_header {
-  border-bottom: 1px solid #e3e5ed;
-  height: 75px;
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 10000;
+    border-bottom: 1px solid #e3e5ed;
+    height: 75px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10000;
 }
 
 .rainbow-admin_header-logo {
-  width: 40px;
-  height: 40px;
+    width: 40px;
+    height: 40px;
 }
 
 .rainbow-admin_header-search {
-  width: 280px;
+    width: 280px;
 }
 
 .rainbow-admin_vertical-navigation {
-  width: 150px;
-  height: calc(100vh - 75px);
-  /* border-right: 1px solid #e3e5ed; */
-  /* background-color: white; */
-  position: fixed;
-  /* top: 75px; */
-  /* overflow: auto; */
+    width: 150px;
+    height: calc(100vh - 75px);
+    position: fixed;
 }
 
 .rainbow-admin_card-body-badge {
-  background-color: #1de9b6;
+    background-color: #1de9b6;
 }
 
 .rainbow-admin_card-footer--divider {
-  border-right: 1px solid #e3e5ed;
+    border-right: 1px solid #e3e5ed;
 }
 
 .rainbow-admin_header-actions {
-  justify-content: flex-end;
-  flex-grow: 1;
+    justify-content: flex-end;
+    flex-grow: 1;
 }
 
 .accordion {
-  width: 300px;
-  /* height: calc(100vh - 75px); */
-  /* border-right: 1px solid #e3e5ed; */
-  /* background-color: white; */
-  /* position: fixed; */
-  /* top: 75px; */
-  /* overflow: auto; */
+    width: 300px;
 }
-
-/* 
-ul {
-    list-style: none;
-    padding: 0;
-    width: 70%;
-}
-
-li {
-    background: '#F4F4F4';
-    padding: '10px';
-    border-bottom: '1px #ccc dotted';
-} */
 
 h1,
 .h1 {
-  font-size: 2.5rem;
+    font-size: 3.5rem;
 }
 
 .lead {
-  font-size: 1.25rem;
-  font-weight: 300;
+    font-size: 1.25rem;
+    font-weight: 300;
 }
