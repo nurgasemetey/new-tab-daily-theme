@@ -48,7 +48,6 @@ export default class FocusContent extends Component {
             onClick={() => {
               console.log("clicked");
               this.setState({isModalOpen:true});
-              // this.props.updateFocusText("Clicked");
             }}
           >
             <FontAwesomeIcon icon={faPen} className="rainbow-m-left_medium" />

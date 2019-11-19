@@ -11,12 +11,9 @@ export default class FocusEditModal extends Component {
         }
     }
 
-
     render() {
         const { isModalOpen, focustText, closeModal, updateFocusText } = this.props;
-
         return (
-
             <Modal
                 isOpen={isModalOpen}
                 title="Enter your focus item"
@@ -28,10 +25,8 @@ export default class FocusEditModal extends Component {
                         <Button label="Save" 
                             variant="brand"
                             onClick={() => {
-                                console.log(this, "clicked");
                                 var newFocusText = this.state.newFocusText;
                                 if (newFocusText != '') {
-                                    console.log('Saving', newFocusText)
                                     updateFocusText(newFocusText);
                                 }
                               }}
