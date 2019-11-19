@@ -36,17 +36,16 @@ export default class FocusContent extends Component {
     this.setState({ isModalOpen: false });
   }
   render() {
-    const { selected_day, dayMap } = this.props;
+    const { selectedDay, dayMap } = this.props;
     return (
       <div className="rainbow-align-content_center rainbow-m-around_xx-large rainbow-flex_column">
         <div className="rainbow-align-content_center rainbow-flex_row">
           <h1 style={titleStyles}>
-            Your focus for <span style={daytTextStyles}>{selected_day}</span>
+            Your focus for <span style={daytTextStyles}>{selectedDay}</span>
           </h1>
           <Button variant="brand"
             className="rainbow-m-around_medium"
             onClick={() => {
-              console.log("clicked");
               this.setState({isModalOpen:true});
             }}
           >
@@ -56,11 +55,11 @@ export default class FocusContent extends Component {
 
         <VisualPicker value="option-1">
           <VisualPickerOption name="option-1">
-            <h2 style={textStyles}>{dayMap[selected_day].focusText}</h2>
+            <h2 style={textStyles}>{dayMap[selectedDay].focusText}</h2>
           </VisualPickerOption>
         </VisualPicker>
         <FocusEditModal closeModal={this.closeModal} 
-          focustText= {dayMap[selected_day].focusText} 
+          focustText= {dayMap[selectedDay].focusText} 
           updateFocusText={this.updateFocusText} 
           isModalOpen={this.state.isModalOpen} />
       </div>

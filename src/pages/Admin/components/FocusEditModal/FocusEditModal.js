@@ -9,34 +9,35 @@ export default class FocusEditModal extends Component {
         this.state = {
             newFocusText: ''
         }
+        this.handleSaveButton = this.handleSaveButton.bind(this);
+    }
+
+    handleSaveButton() {
+        var newFocusText = this.state.newFocusText;
+        if (newFocusText != '') {
+            this.props.updateFocusText(newFocusText);
+        }
     }
 
     render() {
-        const { isModalOpen, focustText, closeModal, updateFocusText } = this.props;
+        const { isModalOpen, focustText, closeModal } = this.props;
         return (
             <Modal
                 isOpen={isModalOpen}
                 title="Enter your focus item"
-                onRequestClose={() => {
-                    closeModal();
-                }}
+                onRequestClose={() => closeModal()}
                 footer={
                     <div className="rainbow-flex rainbow-justify_center">
-                        <Button label="Save" 
+                        <Button label="Save"
                             variant="brand"
-                            onClick={() => {
-                                var newFocusText = this.state.newFocusText;
-                                if (newFocusText != '') {
-                                    updateFocusText(newFocusText);
-                                }
-                              }}
-                            />
+                            onClick={this.handleSaveButton}
+                        />
                     </div>
                 }
             >
 
                 <Input
-                    onChange = {event => this.setState({newFocusText: event.target.value})}
+                    onChange={event => this.setState({ newFocusText: event.target.value })}
                     placeholder={focustText}
                     type="text"
                 />
