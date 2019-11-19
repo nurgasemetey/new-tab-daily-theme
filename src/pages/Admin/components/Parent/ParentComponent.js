@@ -1,35 +1,21 @@
 import React, { Component } from "react";
 import FocusContent from "../FocusContent/FocusContent";
 import SideNavigation from "../SideNavigation/SideNavigation";
+import {defaultDayMap} from './Constants';
 
 export default class Parent extends Component {
   constructor(props) {
     super(props);
+    let dayMap = null;
+    if(!localStorage.getItem('dayMap')) {
+      dayMap = defaultDayMap;
+    }
+    else {
+      dayMap = JSON.parse(localStorage.getItem('dayMap'));
+    }
     this.state = { 
       selectedDay: "Monday",
-      dayMap:{
-        "Monday": {
-          focusText: "Design",
-        },
-        "Tuesday": {
-          focusText: "Design",
-        },
-        "Wednesday": {
-          focusText: "Design",
-        },
-        "Thursday": {
-          focusText: "Design",
-        },
-        "Friday": {
-          focusText: "Design",
-        },
-        "Saturday": {
-          focusText: "Design",
-        },
-        "Sunday": {
-          focusText: "Design",
-        }
-      }
+      dayMap: dayMap
     };
   }
 
@@ -40,6 +26,7 @@ export default class Parent extends Component {
     let dayMap = this.state.dayMap;
     dayMap[this.state.selectedDay].focusText = focusText;
     this.setState({ dayMap:dayMap });
+    localStorage.setItem('dayMap', JSON.stringify(dayMap));
   };
 
   render() {
