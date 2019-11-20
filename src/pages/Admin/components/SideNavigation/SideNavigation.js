@@ -57,7 +57,7 @@ export default class SideNavigation extends Component {
 
   render() {
     return (
-      <aside className="rainbow-admin_vertical-navigation rainbow-p-vertical_small">
+      <aside className="rainbow-admin_vertical-navigation rainbow-p-vertical_medium">
         <Sidebar
           id="sidebar"
           onSelect={this.updateSelectedDay}

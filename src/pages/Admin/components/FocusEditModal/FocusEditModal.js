@@ -35,7 +35,6 @@ export default class FocusEditModal extends Component {
                     </div>
                 }
             >
-
                 <Input
                     onChange={event => this.setState({ newFocusText: event.target.value })}
                     placeholder={focustText}
@@ -45,4 +44,3 @@ export default class FocusEditModal extends Component {
         );
     }
 }
-

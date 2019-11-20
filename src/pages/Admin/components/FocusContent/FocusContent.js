@@ -38,7 +38,7 @@ export default class FocusContent extends Component {
   render() {
     const { selectedDay, dayMap } = this.props;
     return (
-      <div className="rainbow-align-content_center rainbow-m-around_xx-large rainbow-flex_column">
+      <div className="rainbow-align-content_center rainbow-m-around_small rainbow-flex_column">
         <div className="rainbow-align-content_center rainbow-flex_row">
           <h1 style={titleStyles}>
             Your focus for <span style={daytTextStyles}>{selectedDay}</span>
@@ -49,7 +49,7 @@ export default class FocusContent extends Component {
               this.setState({isModalOpen:true});
             }}
           >
-            <FontAwesomeIcon icon={faPen} className="rainbow-m-left_medium" />
+            <FontAwesomeIcon icon={faPen} className="rainbow-m-left_small" />
           </Button>
         </div>
 
