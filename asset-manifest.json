@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/new-tab-daily-theme/static/css/main.5eae8c3b.chunk.css",
-    "main.js": "/new-tab-daily-theme/static/js/main.3111e13e.chunk.js",
-    "main.js.map": "/new-tab-daily-theme/static/js/main.3111e13e.chunk.js.map",
+    "main.css": "/new-tab-daily-theme/static/css/main.54bb596e.chunk.css",
+    "main.js": "/new-tab-daily-theme/static/js/main.4e1f0ad0.chunk.js",
+    "main.js.map": "/new-tab-daily-theme/static/js/main.4e1f0ad0.chunk.js.map",
     "runtime~main.js": "/new-tab-daily-theme/static/js/runtime~main.09b26720.js",
     "runtime~main.js.map": "/new-tab-daily-theme/static/js/runtime~main.09b26720.js.map",
-    "static/css/2.fb69f930.chunk.css": "/new-tab-daily-theme/static/css/2.fb69f930.chunk.css",
-    "static/js/2.bdb5b05f.chunk.js": "/new-tab-daily-theme/static/js/2.bdb5b05f.chunk.js",
-    "static/js/2.bdb5b05f.chunk.js.map": "/new-tab-daily-theme/static/js/2.bdb5b05f.chunk.js.map",
+    "static/css/2.cf2ec415.chunk.css": "/new-tab-daily-theme/static/css/2.cf2ec415.chunk.css",
+    "static/js/2.4f0024a8.chunk.js": "/new-tab-daily-theme/static/js/2.4f0024a8.chunk.js",
+    "static/js/2.4f0024a8.chunk.js.map": "/new-tab-daily-theme/static/js/2.4f0024a8.chunk.js.map",
     "index.html": "/new-tab-daily-theme/index.html",
-    "precache-manifest.c0158f875567ba307665b28a4e0aec6d.js": "/new-tab-daily-theme/precache-manifest.c0158f875567ba307665b28a4e0aec6d.js",
+    "precache-manifest.a32a8233c98d21ba1dd6a9963d929cea.js": "/new-tab-daily-theme/precache-manifest.a32a8233c98d21ba1dd6a9963d929cea.js",
     "service-worker.js": "/new-tab-daily-theme/service-worker.js",
-    "static/css/2.fb69f930.chunk.css.map": "/new-tab-daily-theme/static/css/2.fb69f930.chunk.css.map",
-    "static/css/main.5eae8c3b.chunk.css.map": "/new-tab-daily-theme/static/css/main.5eae8c3b.chunk.css.map",
+    "static/css/2.cf2ec415.chunk.css.map": "/new-tab-daily-theme/static/css/2.cf2ec415.chunk.css.map",
+    "static/css/main.54bb596e.chunk.css.map": "/new-tab-daily-theme/static/css/main.54bb596e.chunk.css.map",
     "static/media/rainbow-styles.css": "/new-tab-daily-theme/static/media/Lato-Regular.e9d329fb.svg"
   }
 }
