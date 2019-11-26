@@ -4,6 +4,7 @@ import "./media-queries.css";
 import SideNavigation from "./components/SideNavigation/SideNavigation";
 import {defaultDayMap} from './Constants';
 import FocusContent from "./components/FocusContent/FocusContent";
+var moment = require('moment');
 
 class AdminExample extends Component {
 
@@ -17,7 +18,7 @@ class AdminExample extends Component {
       dayMap = JSON.parse(localStorage.getItem('dayMap'));
     }
     this.state = { 
-      selectedDay: "Monday",
+      selectedDay: moment().format('dddd'),
       dayMap: dayMap
     };
   }
