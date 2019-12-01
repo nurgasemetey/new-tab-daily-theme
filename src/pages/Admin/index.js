@@ -23,8 +23,8 @@ class AdminExample extends Component {
     };
   }
 
-  updateSelectedDay = selected_day => {
-    this.setState({ selectedDay: selected_day });
+  updateSelectedDay = selectedDay => {
+    this.setState({ selectedDay: selectedDay });
   };
   updateFocusText = focusText => {
     let dayMap = this.state.dayMap;
@@ -36,7 +36,7 @@ class AdminExample extends Component {
     return (
       <main className="rainbow-admin_view-port rainbow-background-color_gray-1">
         <SideNavigation
-            selected_day={this.state.selected_day}
+            selectedDay={this.state.selectedDay}
             updateSelectedDay={this.updateSelectedDay}
           />
         <article className="rainbow-admin_main-inner">

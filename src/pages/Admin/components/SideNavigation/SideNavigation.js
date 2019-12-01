@@ -39,7 +39,9 @@ const dailies = [
     img: "./assets/images/icons8-sunday-50.png"
   }
 ];
-
+const selectedItemStyle = {
+  backgroundColor: '#D8D8D8'
+ }
 export default class SideNavigation extends Component {
   updateSelectedDay = (e, selectedItem) => {
     this.props.updateSelectedDay(selectedItem);
@@ -48,6 +50,7 @@ export default class SideNavigation extends Component {
   renderSliderBarItems = () => {
     return dailies.map(item => (
       <SidebarItem
+        style={item.name == this.props.selectedDay ? selectedItemStyle: null}
         name={item.name}
         label={item.label}
         icon={<img src={item.img} />}
@@ -61,7 +64,7 @@ export default class SideNavigation extends Component {
         <Sidebar
           id="sidebar"
           onSelect={this.updateSelectedDay}
-          selectedItem={this.props.selected_day}
+          selectedItem={this.props.selectedDay}
         >
           {this.renderSliderBarItems()}
         </Sidebar>
